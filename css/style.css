@@ -1,0 +1,86 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-color: rgb(31, 6, 56);
+  color: rgb(202, 223, 88);
+  margin: 10px;
+  font-family: 'Metal Mania', cursive;
+}
+
+div {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+ h1 {
+  font-size: 40px;
+  padding: 20px 0 10px;
+ }
+
+h2 {
+  font-size: 20px;
+  padding: 10px 0;
+  letter-spacing: 3px;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+ p {
+ letter-spacing: 2px;
+ padding: 0 0 10px;
+ }
+
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  display: inline;
+  margin: 0 auto;
+  background-color: rgb(202, 223, 88);
+  padding: 5px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+div.imageBox {
+  display: flex;
+  padding: 5px;
+  width: 50%;
+  justify-content: space-between;
+}
+
+h2.winner {
+  font-size: 60px;
+}
+
+.button {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 16px 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
